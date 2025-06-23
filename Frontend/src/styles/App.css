@@ -1,0 +1,97 @@
+/* App.css */
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background-color: #f8f9fa;
+  }
+  
+  .app.dark {
+    background-color: #1a1a1a;
+    color: #f2f2f2;
+  }
+  
+  .header {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .header.dark {
+    background-color: #2a2a2a;
+  }
+  
+  .section-title {
+    font-size: 1.5rem;
+    margin-bottom: 1rem;
+  }
+  
+  .card {
+    background-color: white;
+    padding: 1rem;
+    margin: 0.5rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+  }
+  
+  .cards {
+    display: flex;
+    gap: 1rem;
+  }
+  
+  .transaction {
+    display: flex;
+    justify-content: space-between;
+    padding: 0.75rem;
+    border-bottom: 1px solid #ccc;
+  }
+  
+  .transaction.expense {
+    color: red;
+  }
+  .transaction.income {
+    color: green;
+  }
+  
+  .modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 8px;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: white;
+    right: 0;
+    padding: 10px;
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  }
+  
+  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+  
+  .welcome-screen, .profile-form {
+    padding: 3rem;
+    text-align: center;
+  }
+  

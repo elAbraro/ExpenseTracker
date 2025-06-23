@@ -1,0 +1,13 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "npm",
+			"script": "backend",
+			"path": "Frontend",
+			"problemMatcher": [],
+			"label": "npm: backend - Frontend",
+			"detail": "cd ../backend && python manage.py runserver 8000"
+		}
+	]
+}

@@ -1,0 +1,16 @@
+/* stylelint-disable at-rule-no-unknown */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  body {
+    @apply antialiased;
+  }
+}
+
+@layer components {
+  .chart-container {
+    @apply rounded-xl bg-white p-6 shadow-lg;
+  }
+}
